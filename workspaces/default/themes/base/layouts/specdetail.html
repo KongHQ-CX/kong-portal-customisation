@@ -1,0 +1,19 @@
+{% layout = "layouts/_page.html" %}
+
+
+{-content-}
+  <div class="service-catalog fixed-filter">
+    {(partials/service-catalog/specdetailheader.html, context)}
+
+    <div class="container">
+      <div class="row">
+        <div class="three columns">
+          {(partials/service-catalog/specdetailsidebar.html, context)}
+        </div>
+        <div class="nine columns">
+          Content
+        </div>
+      </div>
+    </div>
+  </div>
+{-content-}

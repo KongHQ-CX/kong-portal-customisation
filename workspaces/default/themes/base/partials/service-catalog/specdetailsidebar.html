@@ -1,0 +1,14 @@
+<section class="catalog-sidebar">
+  <div class="catalog-categories-component">
+    <h1>{{ page.spec_name }} Help Topics</h1>
+
+    {% for offset, topic_page in each(page.topic_pages) do %}
+    <a class="tag-link" href="documentation/petstore-detail/{{ topic_page.href }}">
+      <span class="tag-link--name">{{ topic_page.title }}</span>
+    </a>
+    {% end %}
+    <a class="tag-link" href="documentation/{{ page.spec_flattened_href }}">
+      <span class="tag-link--name"><strong>API Spec</strong></span>
+    </a>
+  </div>
+</section>
