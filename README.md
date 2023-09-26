@@ -24,7 +24,7 @@ This means that you can now created extended Markdown documentation for each API
 
 The "Petstore" example is provided for you, to demonstrate how this works.
 
-### Dynamic Content
+### Dynamic Content
 
 Whilst inside the "petstore-detail" directory under `./workspaces/default/content/documentation/`, you can see that this content is agnostic to the API specification that the user selected - the `index.txt` file designated the API's friendly-name, description, and other metadata, in addition to an array of extra doc pages:
 
