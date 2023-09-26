@@ -7,13 +7,13 @@ Specific customisation example.
 Set this as your current portal markup in the "default" workspace, from the root of this repository, using [Kong Portal CLI](https://github.com/Kong/kong-portal-cli):
 
 ```sh
-KONG_ADMIN_URL=https://kong-admin.domain.local:443 KONG_ADMIN_TOKEN=abc portal -D -I deploy default
+KONG_ADMIN_URL=https://kong-admin.domain.local:443 KONG_ADMIN_TOKEN=abc portal -D deploy default
 ```
 
 or a Kong running on the local host:
 
 ```sh
-portal -I deploy default
+portal deploy default
 ```
 
 ## Customisation

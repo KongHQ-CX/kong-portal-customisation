@@ -1,9 +1,10 @@
 <section class="catalog-sidebar">
   <div class="catalog-categories-component">
+    <div class="back"><a href="documentation/"><img class="logo" src="{{ theme.images.back_button }}" alt="Back" /></a></div>
     <h1>{{ page.spec_name }} Help Topics</h1>
 
     {% for offset, topic_page in each(page.topic_pages) do %}
-    <a class="tag-link" href="documentation/petstore-detail/{{ topic_page.href }}">
+    <a class="tag-link" href="documentation/{{ page.spec_flattened_href }}-detail/{{ topic_page.href }}">
       <span class="tag-link--name">{{ topic_page.title }}</span>
     </a>
     {% end %}
