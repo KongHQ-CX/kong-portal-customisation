@@ -1,10 +1,11 @@
 ---
 layout: specdetail.html
-title: Petstore API
 spec_name: "Petstore"
 spec_flattened_href: "petstore"
 
 topic_pages:
+- title: "About"
+  href: "about"
 - title: "Subscribing"
   href: "subscribing"
 - title: "Usage"

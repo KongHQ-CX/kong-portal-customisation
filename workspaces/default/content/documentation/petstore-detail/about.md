@@ -14,6 +14,6 @@ topic_pages:
   href: "usage"
 ---
 
-# Subscribing
+# About
 
-How to subscribe to `Petstore` API would go here.
+This is everyone's favourite - the Petstore API...

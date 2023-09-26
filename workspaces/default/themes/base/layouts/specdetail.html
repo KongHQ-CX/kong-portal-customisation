@@ -2,7 +2,7 @@
 
 
 {-content-}
-  <div class="service-catalog fixed-filter">
+  <div class="service-catalog">
     {(partials/service-catalog/specdetailheader.html, context)}
 
     <div class="container">
@@ -10,8 +10,9 @@
         <div class="three columns">
           {(partials/service-catalog/specdetailsidebar.html, context)}
         </div>
-        <div class="nine columns">
-          Content
+        <div class="dashboard">
+          <h1>{{ page.spec_name }} API Documentation</h1>
+          <p>Select a subject from the navigation bar for more information.</p>
         </div>
       </div>
     </div>
