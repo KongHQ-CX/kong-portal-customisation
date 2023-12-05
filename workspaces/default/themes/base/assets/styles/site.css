@@ -6,7 +6,7 @@ body,
 html {
   height: 100%;
   width: 100%;
-  color: var(--primary_text, #000000);
+  color: var(--primary_text, #FFFFFF);
   font-weight: 200;
 }
 
@@ -15,7 +15,7 @@ html {
  *****************************************/
 
 h1, h2, h3, h4, h5 {
-  color: var(--text_headings,  #888888);
+  color: var(#FFFFFF);
 }
 
 /*****************************************
@@ -23,13 +23,13 @@ h1, h2, h3, h4, h5 {
  *****************************************/
 
 a {
-  color: var(--text_links, blue);
+  color: var(--text_links, rgb(255, 255, 255));
   cursor: pointer;
   text-decoration: none;
 }
 
 a:hover {
-  color: var(--text_links, blue);
+  color: var(--text_links, rgb(255, 255, 255));
   text-decoration: underline;
 }
 
@@ -254,10 +254,12 @@ input.has-error {
     display: inline-block;
     margin-bottom: 0;
     transition-duration: 0.5s;
+    font-size: 19px;
   }
 
   .site-header nav li:hover {
     cursor: pointer;
+    background-color: lightblue;
   }
 
   .site-header nav li ul {
@@ -499,7 +501,7 @@ a.tag-link.is-active {
   display: flex;
   padding: 3rem;
   align-items: start;
-  background: rgba(255,255,255);
+  background: rgba(150,150,150);
   box-shadow: 0 1px 2px var(--border, grey);
   border-radius: 3px;
   text-decoration: none;
@@ -531,7 +533,7 @@ a.tag-link.is-active {
   font-size: 2.4rem;
 }
 .catalog-item .catalog-details .catalog-title {
-  color: var(--text_links, blue);
+  color: var(--text_links, rgb(255, 255, 255));
   margin-bottom: 1rem;
 
 }
@@ -1216,7 +1218,7 @@ div.hero-header \* { color: #fff !important }
   }
 
 .site-header .brand .logo {
-    max-height: 80px;
+    max-height: 30px;
 }
 
 .homepage-hero { background-image:url(https://prd-mktg-konghq-com.imgix.net/images/2023/09/64f7322c-graphic-kong-brand-logo-dark.png?auto=format&fit=max&w=2560) !important; background-size: cover;}
@@ -1246,7 +1248,7 @@ div.hero-header { background-color: rgba(0, 0, 0, 0.6);padding: 1em;border-radiu
 
 div.hero-header \* { color: #fff !important }
 
-.container h1 {color: #000 !important}
+.container h1 {color: #FFF !important}
 
 .site-header nav li a:not(.nav-button):hover {text-decoration: none !important; border-bottom: 3px solid #1c69d4 }
  .site-header nav li.btn-secondary a { color:  #fff !important; }
