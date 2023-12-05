@@ -1,27 +1,27 @@
 name: Kong
 fonts:
-  base: Roboto
-  code: Roboto Mono
-  headings: Lato
+  base: Arial, Helvetica, Roboto, sans-serif;
+  code: Arial, Helvetica, Roboto, sans-serif;
+  headings: Arial, Helvetica, Roboto, sans-serif;
 colors:
   header:
-    value: '#FFFFFF'
+    value: '#000'
     description: 'Background for header'
   page:
     value: '#FFFFFF'
     description: 'Background on pages'
   hero:
-    value: '#003459'
+    value: '#e6e6e6'
     description: 'Background for hero text on homepage, about, login, contact us...'
   text_hero:
-    value: '#FFFFFF'
+    value: '#fff'
     description: 'Text on top of hero, used on homepage, about, login, contact us...'
   footer:
-    value: '#F7F9FA'
+    value: '#e6e6e6'
     description: 'Background on footer'
   accent:
     # blue-500
-    value: '#1456CB'
+    value: '#e6e6e6'
     description: 'Borders and catalog preview icons'
   text_primary:
     value: '#404040'
@@ -31,7 +31,7 @@ colors:
     value: '#395380'
     description: 'Supporting text, hints, etc.'
   text_headings:
-    value: '#005999'
+    value: '#000'
     description: 'Headings'
   text_links:
     # blue-600
@@ -39,26 +39,27 @@ colors:
     description: 'Link color'
   button_primary_fill:
     # green-400
-    value: '#008036'
+    value: '#1c69d4'
     description: 'Background for Primary Button'
   button_primary_fill_hover:
-    value: '#3DCC91'
+    value: '#1c69d4'
     description: 'Hover background for Primary Button'
   button_primary_text:
-    value: '#FFFFFF'
+    value: '#fff'
     description: 'Text for Primary Button'
   button_secondary_fill:
-    value: '#FFFFFF'
+    value: '#1c69d4'
     description: 'Background for Secondary Button'
   button_secondary_fill_hover:
-    value: '#F0F9FF'
+    value: '#1c69d4'
     description: 'Hover background for Secondary Button'
   button_secondary_border:
-    value: '#A3D9FF'
+    value: '#1c69d4'
     description: 'Border Secondary Button'
   button_secondary_text:
-    value: '#21A66F'
+    value: '#fff'
     description: 'Text for Secondary Button'
 images:
   logo: assets/images/logo-developers-light.png
   back_button: assets/images/back_button.png
+  favicon: https://konghq.com/favicon.ico

@@ -84,7 +84,7 @@
   top: 80px;
   width: 260px;
   height: calc(100vh - 80px);
-  background: var(--blue-400);
+  background: var(--black-100);
   overflow-y: auto;
   border-right: 20px solid #eee;
 }
