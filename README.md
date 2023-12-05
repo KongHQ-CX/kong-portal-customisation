@@ -40,3 +40,7 @@ Each of thesse topic pages will be rendered in the sidebar to the left of the pa
 These 'topic' pages correspond to a .md file in the same relative directory. Whilst not rendered dynamically based on the API spec, it hopefully gives you an idea of how you could easily add documentation for each published API specification.
 
 The sidebar menu option "API Spec", in bold, is added to each spec automatically.
+
+## TODO
+
+* Dynamic page listing on the left side
