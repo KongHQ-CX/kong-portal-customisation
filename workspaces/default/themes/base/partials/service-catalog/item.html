@@ -3,7 +3,11 @@
   data-json="{{ json }}"
   class="catalog-item toggle-content is-visible">
   <div class="catalog-logo">
-    {{parsed.info.title:sub(0,2)}}
+    {% if parsed.info.image then %}
+      <img style="width: 45px;" src="{*portal.url*}assets/images/{{parsed.info.image}}" />
+    {% else %}
+      {{parsed.info.title:sub(0,2)}}
+    {% end %}
   </div>
 
   <div class="catalog-details">
