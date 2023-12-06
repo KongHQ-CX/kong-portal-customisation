@@ -43,6 +43,19 @@ menu:
       - btn
       - btn-secondary
 menu_no_auth:
+  - title: FAQ
+    url: faq
+    needs_auth: false
+    sub_menu:
+      - title: Questions&answers
+        url: faq
+        needs_auth: false
+      - title: Videos
+        url: videos
+        needs_auth: false
   - title: Catalog
     url: documentation
     needs_auth: false
+
+cloud:
+- name: 

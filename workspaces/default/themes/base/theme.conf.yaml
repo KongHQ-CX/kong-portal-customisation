@@ -61,5 +61,5 @@ colors:
     description: 'Text for Secondary Button'
 images:
   logo: assets/images/logo-developers-light.png
-  back_button: assets/images/back_button.png
+  back_button: assets/images/back_button_white.png
   favicon: https://konghq.com/favicon.ico
